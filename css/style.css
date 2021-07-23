@@ -1,7 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
 #title{
     margin-left: 60px;
 }
 th{
-    border: 1px solid black;
-    padding:2px;
+    border: 2px solid black;
+    padding:5px;
+    border-radius: 10px;
+}
+td{
+    padding: 5px;
+    border-bottom: solid 1px black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+table{
+    box-shadow: black 0px 3px 12px;
+    text-align: center;
+    border: black solid 1.5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+#tableHolder{
+    position: relative;
+    left: 20%;
+}
+#abd{
+    
+    box-shadow: black 0px 3px 12px;
+    text-align: center;
+    border: black solid 1.5px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    
 }
