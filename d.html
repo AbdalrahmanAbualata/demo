@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="d.css">
+    <title>My Movie list</title>
+</head>
+<body>
+    <header>
+<h1>my movie list </h1>
+    </header>
+    <main>
+        <div>
+<form id="moveForm" >
+<fieldset>
+    <legend> Add New Movie </legend>
+    <label for=" movieName">Movie Name</label>
+    <input type="text" required   placeholder=" Add Movie Name"  name="movieName" id="movieName"><br>
+    <label for="movieCategory"> Movie Category</label>
+   <select name="movieCategory" id="movieCategory"  required ></select><br>
+    <label for="IssueYear"> Issue Year </label>
+    <input type="number" name="IssueYear" id="IssueYear" required min="1990" max="2021" value="2021" ><br>
+    <input type="submit" name="submit" id="submit" value="submit">
+</fieldset>
+</form>
+<button id="button" >clear list</button>
+</div>
+<div id="tableHolder">
+    <table>
+<thead>
+    <tr>
+        <th>Remove</th>
+        <th>Movie Name</th>
+        <th>Movie Category</th>
+        <th>Issue Year</th>
+    </tr>
+</thead>
+<tbody id="tbody">
+
+</tbody>
+<tfoot>
+
+</tfoot>
+    </table>
+</div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="d.js"></script>
+</body>
+</html>
